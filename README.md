@@ -7,6 +7,7 @@ regarding the dnd multiverse within the 5e rule set.
 # MVP Goals
 - Rendering atleast 75% of my searchable components from the API
 - Search Field to request API data
+- Mobile First Design
 ### Stretch Goals
 - Random Die roller/number generator
 - Adding Additional Views for non Rendered components
