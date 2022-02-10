@@ -5,7 +5,7 @@ a pocket companion for dnd players and DM's alike
 it will have a wealth of knowledge 
 regarding the dnd multiverse within the 5e rule set.
 # MVP Goals
-- Rendering atleast 75% of my searchable components from the API
+- Rendering atleast 75% of my searchable components aka(Core Game components) from the API
 - Search Field to request API data
 - Mobile First Design
 ### Stretch Goals
