@@ -1,15 +1,16 @@
 ﻿# GAP3 REACT PROJECT DND Companion App  `Name Pending`
-Description: my unit 3 app will be 
+## Description: 
+my unit 3 app will be 
 a pocket companion for dnd players and DM's alike 
 it will have a wealth of knowledge 
 regarding the dnd multiverse within the 5e rule set.
 # MVP Goals
-Rendering atleast 75% of my searchable components from the API
--Search Field to request API data
+- Rendering atleast 75% of my searchable components from the API
+- Search Field to request API data
 ### Stretch Goals
-Random Die roller/number generator
-Adding Additional Views for non Rendered components
-Mern back end for uploading homebrew content
+- Random Die roller/number generator
+- Adding Additional Views for non Rendered components
+- Mern back end for uploading homebrew content
 
 # [link to my api](https://www.dnd5eapi.co/) `"dnd5eapi.co"`
 - API Resp "https://www.dnd5eapi.co/api/classes/barbarian" 
@@ -19,8 +20,8 @@ res.json would return something like this demonstrated below
 ![res](images/dndapi.png)
 
 
-which would allow me to display a bunch of information
-such as classes, spells, items, monsters etc
+`which would allow me to display a bunch of information`
+`such as classes, spells, items, monsters etc`
 # Comp Heirachy
 [Link to Board](https://miro.com/app/board/uXjVONjQ4Z8=/?invite_link_id=526593467844)
 ![Compy Heirachy](images/GAP3CompHeirahy.jpg)
