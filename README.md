@@ -4,12 +4,12 @@ a pocket companion for dnd players and DM's alike
 it will have a wealth of knowledge 
 regarding the dnd multiverse within the 5e rule set.
 # MVP Goals
--Rendering atleast 75% of my searchable components from the API
+Rendering atleast 75% of my searchable components from the API
 -Search Field to request API data
 ### Stretch Goals
--Random Die roller/number generator
--Adding Additional Views for non Rendered components
--Mern back end for uploading homebrew content
+Random Die roller/number generator
+Adding Additional Views for non Rendered components
+Mern back end for uploading homebrew content
 
 # [link to my api](https://www.dnd5eapi.co/) `"dnd5eapi.co"`
 - API Resp "https://www.dnd5eapi.co/api/classes/barbarian" 
