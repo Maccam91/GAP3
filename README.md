@@ -4,9 +4,13 @@ a pocket companion for dnd players and DM's alike
 it will have a wealth of knowledge 
 regarding the dnd multiverse within the 5e rule set.
 # MVP Goals
-displaying all my comps in one page using react and routing
-random Die roller/number generator
+Rendering atleast 75% of my searchable components from the API
+
 ### Stretch Goals
+random Die roller/number generator
+<br/>
+Adding Additional Views for non Rendered components
+<br/>
 mern back end for uploading homebrew content
 
 # [link to my api](https://www.dnd5eapi.co/) `"dnd5eapi.co"`
