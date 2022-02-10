@@ -8,9 +8,9 @@ Rendering atleast 75% of my searchable components from the API
 
 ### Stretch Goals
 random Die roller/number generator
-<br/>
+<br>
 Adding Additional Views for non Rendered components
-<br/>
+<br>
 mern back end for uploading homebrew content
 
 # [link to my api](https://www.dnd5eapi.co/) `"dnd5eapi.co"`
