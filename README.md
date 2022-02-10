@@ -21,8 +21,7 @@ res.json would return something like this demonstrated below
 ![res](images/dndapi.png)
 
 
-`which would allow me to display a bunch of information`
-`such as classes, spells, items, monsters etc`
+`which would allow me to display a bunch of information such as classes, spells, items, monsters etc`
 # Comp Heirachy
 [Link to Board](https://miro.com/app/board/uXjVONjQ4Z8=/?invite_link_id=526593467844)
 ![Compy Heirachy](images/GAP3CompHeirahy.jpg)
