@@ -1,0 +1,29 @@
+ // const profChoices = profChoice.map((profChoice, idx)=>{
+    //     const {choose, type} = profChoice
+        
+    //     console.log(from)
+        
+        
+    //     return(
+    //             <section>
+    //             <p>{choose}</p>
+    //             <p>{type}</p>
+    //             </section>
+    //     )
+        
+    // })
+    
+    // function makeChoices(){
+    //     if(!profChoice.from){
+    //         return
+    //     }
+    //     console.log(profChoice.from.length)
+    //     const {choose, type, from} = profChoice
+    //     const profyChoices = []
+
+    //     for(let i=0;i<from.length;i++){
+    //         profyChoices.push([i])
+    //     }
+    //     console.log(profyChoices)
+    // }
+    // makeChoices()

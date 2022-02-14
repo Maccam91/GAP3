@@ -1,0 +1,82 @@
+.app{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+ul{
+  list-style: none;
+  
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+.ClassDetails{
+  text-align: center;
+}
+
+@media screen and (max-device-width: 360px) and (max-device-height: 640px)  {
+#barbarian{
+        border: 2px solid rgba(99, 0, 0, 0.616);
+        text-align: center;
+        color: brown;
+        
+        
+      }
+    
+h1{
+        text-align: center;
+        color: rgb(99, 0, 0);
+      }
+.ClassDetails{
+  text-align: center;
+}
+.CardContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row: auto;
+        grid-gap: 75vh;
+      }
+.cards{
+        text-align: center;
+        position: absolute; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.103);
+        height: 360px;
+        width: 360px;
+        border: 2px solid rgb(182, 182, 182);   
+        border-radius: 8px;   
+        padding: .5rem;
+        background-color: rgb(250, 228, 201);
+         
+      }
+    }
+    @media screen and (max-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape)  {
+      #barbarian{
+              border: 2px solid rgba(99, 0, 0, 0.616);
+              text-align: center;
+              color: brown;
+              
+              
+            }
+          
+      h1{
+              text-align: center;
+              color: rgb(99, 0, 0);
+            }
+      .CardContainer{
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              grid-row: auto;
+              grid-gap: 5cm;
+            }
+      .cards{
+              position: absolute; 
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.103);
+              height: 20%;
+              width: 50%;
+              border: 2px solid rgb(182, 182, 182);   
+              border-radius: 8px;   
+              padding: .5rem;
+              background-color: rgb(250, 228, 201);
+               
+            }
+          }
