@@ -13,6 +13,12 @@ regarding the dnd multiverse within the 5e rule set.
 - Adding Additional Views for non Rendered components
 - Mern back end for uploading homebrew content
 
+### Phase2
+ - finsh rendering all components and abstract data models
+ - add die roller
+ - add the back end for user homebrew creation
+ - finish style for both mobile and web layouts
+
 # [link to my api](https://www.dnd5eapi.co/) `"dnd5eapi.co"`
 - API Resp "https://www.dnd5eapi.co/api/classes/barbarian" 
 res.json would return something like this demonstrated below
