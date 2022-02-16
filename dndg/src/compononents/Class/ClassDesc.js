@@ -15,7 +15,7 @@ const {name, hit_die, proficiencies} = classDesc
 
 useEffect(()=>{
     axios.get('https://www.dnd5eapi.co/api/classes/'+index).then(res=>{
-        console.log(res.data)
+        // console.log(res.data)
         setClassDesc(res.data)
         
         

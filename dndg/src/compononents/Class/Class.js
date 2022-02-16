@@ -16,7 +16,7 @@ function Class(){
     })
     useEffect(()=>{
         axios.get('https://www.dnd5eapi.co/api/classes').then(res=>{
-            console.log(res.data.results)
+            // console.log(res.data.results)
             setDndClass(res.data.results)
         })
     }, [])

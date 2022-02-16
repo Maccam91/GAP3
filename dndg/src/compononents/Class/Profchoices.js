@@ -20,7 +20,7 @@ function ProfChoice(props){
         const otherChoice = profChoice[1]?.from || []
         
         for(let y = 0;y<otherChoice.length;y++){
-            console.log(otherChoice)
+            // console.log(otherChoice)
             setOtherChoice(otherChoice)
         }
 

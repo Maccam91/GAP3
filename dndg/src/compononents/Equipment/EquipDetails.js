@@ -6,7 +6,7 @@ function EqpDetails(){
     const {index} = useParams()
     useEffect(()=>{
         axios.get('https://www.dnd5eapi.co/api/equipment/'+index).then(res=>{
-        console.log(res.data)
+        // console.log(res.data)
         setEqpDetails(res.data)
     })
     }, [])

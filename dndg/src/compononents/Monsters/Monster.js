@@ -7,7 +7,7 @@ function Monster(){
     useEffect(()=>{
 
         axios.get('https://www.dnd5eapi.co/api/monsters').then(res=>{
-            console.log(res.data.results)
+            // console.log(res.data.results)
             setMonsters(res.data.results)
         })
     }, [])

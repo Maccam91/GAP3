@@ -6,7 +6,7 @@ function ProficienyList(props){
     const [proficencyList, setProficiencyList] = useState([])
     useEffect(()=>{
         axios.get('https://www.dnd5eapi.co/api/proficiencies').then(res=>{
-            console.log(res.data.results)
+            // console.log(res.data.results)
             setProficiencyList(res.data.results)            
         })
     }, [])

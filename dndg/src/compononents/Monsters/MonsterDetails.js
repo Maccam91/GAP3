@@ -8,7 +8,7 @@ function MonsterData(){
     const {name, size, type, subtype, alignment, armor_class, hit_points, hit_dice, strength, dexterity, constitution, intelligence, wisdom, charisma, languages, challenge_rating, xp} = monsterData
     useEffect(()=>{
         axios.get('https://www.dnd5eapi.co/api/monsters/'+index).then(res=>{
-            console.log(res.data)
+            // console.log(res.data)
             setMonsterData(res.data)
         })
     }, [])

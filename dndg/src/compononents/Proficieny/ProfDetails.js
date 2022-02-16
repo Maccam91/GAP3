@@ -8,7 +8,7 @@ function ProfDetails(){
     console.log(index)
     useEffect(()=>{
     axios.get('https://www.dnd5eapi.co/api/proficiencies/'+index).then(res=>{
-            console.log(res.data)
+            // console.log(res.data)
             setProfDetails(res.data)            
         })
     }, [])
