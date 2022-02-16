@@ -3,6 +3,9 @@
   overflow: hidden;
   display: flex;
 }
+body{
+  background-color: antiquewhite;
+}
 ul{
   list-style: none;
   
@@ -13,7 +16,19 @@ ul{
 .ClassDetails{
   text-align: center;
 }
-
+.profDetails{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  padding: 3vw;
+  margin: 3vw;
+}
+.topNavBar{
+display: flex;
+top: 0;
+align-self: center;
+justify-self: center;
+}
 @media screen and (max-device-width: 360px) and (max-device-height: 640px)  {
 #barbarian{
         border: 2px solid rgba(99, 0, 0, 0.616);
@@ -27,6 +42,17 @@ h1{
         text-align: center;
         color: rgb(99, 0, 0);
       }
+.proficiency_choices{
+/* text-align: center; */
+}
+.profTitle{
+  display: inline-block;
+  padding: 3vw;
+}
+.profList{
+  display: inline-block;
+  padding: 3vw;
+}
 .ClassDetails{
   text-align: center;
 }
@@ -49,8 +75,8 @@ h1{
          
       }
     }
-    @media screen and (max-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape)  {
-      #barbarian{
+@media screen and (max-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape)  {
+  #barbarian{
               border: 2px solid rgba(99, 0, 0, 0.616);
               text-align: center;
               color: brown;

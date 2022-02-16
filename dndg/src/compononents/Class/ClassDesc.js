@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
 import Proficiencies from './Proficiencies'
-import ProfChoice from './ProfChocies'
+import ProfChoice from './Profchoices'
 import axios from 'axios'
 
 
