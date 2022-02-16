@@ -5,7 +5,7 @@ function ProfDetails(){
     const [profDetails, setProfDetails] = useState([])
     
     const {index} = useParams()
-    console.log(index)
+    // console.log(index)
     useEffect(()=>{
     axios.get('https://www.dnd5eapi.co/api/proficiencies/'+index).then(res=>{
             // console.log(res.data)
