@@ -11,7 +11,7 @@ function MonsterData(){
             console.log(res.data)
             setMonsterData(res.data)
         })
-    })
+    }, [])
     return (
         <div>
             <h1>Name: {name}</h1>
